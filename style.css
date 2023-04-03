@@ -724,6 +724,10 @@ hr {
 }
 
 @media screen and (max-width: 350px) {
+  body,
+  html {
+    overflow-x: scroll;
+  }
   .appart h2 {
     font-size: 30px;
   }
